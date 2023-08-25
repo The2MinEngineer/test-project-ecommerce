@@ -1,0 +1,90 @@
+header{
+    background-color: white ;
+    height: 146px;
+    width: 100% ;
+   
+
+}
+
+.navbar{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+div ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    text-decoration: none;
+    
+}
+
+.nav-links{
+    list-style: none;
+    text-decoration: none;
+    color: grey;
+    font-family: 'Sora', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.active{
+    text-decoration: underline blue solid;
+    font-weight: bold;
+    color: black;
+}
+
+.nav-links:hover{
+    text-decoration: underline blue solid;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.input-wrapper{
+    height: 50px;
+    width: 400px;
+    border-radius: 35px;
+    background-color: rgba(232, 237, 249, 1);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding:  15px;
+
+
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+input:focus{
+    outline: none;
+}
+
+#search-icon{
+    color: rgba(136, 136, 136, 1);
+    font-size: 15px;
+}
+
+.nav-icons{
+    display: flex;
+    justify-items: center;
+    gap: 20px;
+}
+
+.svg-inline--fa{
+    font-size: 40px;
+    color: rgba(28, 73, 194, 1);
+}
